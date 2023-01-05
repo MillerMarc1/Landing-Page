@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+.navBar {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.links > a {
+    margin: 10px;
+}
+
+.navBar > h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+
+
+.titleAndImage {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.imagePlaceholder {
+    background-color: #E5E7EB;
+    width: 530px;
+    height: 230px;
+    margin-right: 80px;
+}
+
+
+.title > button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    height: 25px;
+    width: 75px;
+    border-radius: 6px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.title > p {
+    margin-top: -30px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+
+p {
+    color: black;
+}
+
+.randomInfoTitle {
+    color: black;
+    text-align: center;
+}
+
+.randomInfo {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.imageRow {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+}
+
+.imageBorder {
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 100px;
+}
+
+
+.quoteContainer {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 460px;
+    margin-right: 460px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.callToAction {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.callToActionRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.footer > p {
+    color: #F9FAF8;
+}
